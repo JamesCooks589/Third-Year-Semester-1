@@ -1,0 +1,178 @@
+/*James Cooks u21654680*/
+@font-face {
+    font-family: 'Body';
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+@font-face {
+    font-family: 'Heading';
+    src: url("../fonts/bavro-regular-webfont.ttf");
+}
+
+.footer {
+    background-color: #333;
+    color: #006837;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Body';
+}
+
+.loader {
+    width: 100%;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    margin-top: -12%;
+    margin-left: -12%;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;}
+
+.loader img {
+    width: 25%;
+}
+
+#Logo {
+    width: 20%;
+    padding: 15px;
+    float: left;
+}
+
+.SearchBar {
+    padding: 15px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SearchBar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 1.5em;
+    border: none;
+    width: 50%;
+    height: 100%;
+    font-family: 'Body';
+    background-color: #333;
+    color: white;
+    margin-right: 10px;
+}
+
+#search {
+    background-color: #0aa55d;
+    color: white;
+    padding: 6px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    font-family: 'Body';
+    text-align: center;
+}
+
+.NavBar {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavBar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Heading';
+}
+
+.NavBar a:hover {
+    background-color: darkgray;
+    color: #006837;
+}
+
+.NavBar a.active {
+    background-color: #0aa55d;
+    color: white;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Body';
+    color: white;
+}
+
+#signupForm {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'Heading';
+    text-align: center;
+    color : #0aa55d;
+}
+#signupForm input[type=text], input[type=password] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 1.5em;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-family: 'Body';
+    background-color: #333;
+    color: white;
+    margin-right: 10px;
+}
+
+#signupForm input[type=button] {
+    background-color: #0aa55d;
+    color: white;
+    padding: 6px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    font-family: 'Body';
+    text-align: center;
+    margin: auto;
+}
+
+#error {
+    color: red;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Body';
+    padding-bottom: 10px; 
+}
+
+#cancel {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#cancel a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Body';
+    text-align: center;
+
+}
+
+#cancel a:hover {
+    color: #0aa55d;
+}
+
+

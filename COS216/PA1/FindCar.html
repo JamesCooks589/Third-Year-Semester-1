@@ -1,0 +1,215 @@
+<!--James Cooks u21654680-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cars.css">
+    <link rel="stylesheet" href="css/FindCar.css">
+</head>
+<body>
+    <a href="../index.html"><img src="img/Logo.png" id="Logo" alt="Logo"/></a>
+    <div class="NavBar">     
+        <a href="index.html">Cars</a>
+        <a href="Brands.html">Brands</a>
+        <a href="FindCar.html" class="active">Find a Car</a>
+        <a href="Compare.html">Compare</a>
+    </div>
+    <h1>Find a Car for you</h1>
+    <div id="main">
+        <form method="post">
+            <h2>Answer some quick questions and help us find cars fit for you</h2>
+            <h4>&#10088;* means its a required field&#10089;</h4>
+            <div class="questions">
+                <h3>Fuel economy*</h3>
+                <label for="fuelEconomy1">
+                    <input type="radio" id="fuelEconomy1" name="fuelEconomy" value="1">
+                    I want a car that is fuel efficient
+                </label><br>
+                <label for="fuelEconomy2">
+                    <input type="radio" id="fuelEconomy2" name="fuelEconomy" value="2">
+                    I want a car that is fuel efficient but also has a good performance
+                </label><br>
+                <label for="fuelEconomy3">
+                    <input type="radio" id="fuelEconomy3" name="fuelEconomy" value="3">
+                    A gas guzzling beast
+                </label><br>
+            </div>
+            
+            <div class="questions">
+                <h3>Price*</h3>
+                <select required="required">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="1">R0 - R500 000</option>
+                    <option value="2">R500 000 - R1 000 000</option>
+                    <option value="3">R1 000 000 - R1 500 000</option>
+                    <option value="4">R1 500 000+</option>
+                </select>
+            </div>
+
+            <div class="questions">
+                <h3>Number of doors*</h3>
+                <label for="doors1">
+                    <input type="radio" id="doors1" name="doors" value="1">
+                    Any
+                </label><br>
+                <label for="doors2">
+                    <input type="radio" id="doors2" name="doors" value="2">
+                    2 doors
+                </label><br>
+                <label for="doors3">
+                    <input type="radio" id="doors3" name="doors" value="3">
+                    4 doors
+                </label><br>
+            </div>
+
+            <div class="questions">
+                <h3>Transmission*</h3>
+                <select required="required">
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="1">Any</option>
+                    <option value="2">Manual</option>
+                    <option value="3">Automatic</option>    
+                </select>
+            </div>
+
+            <div class="questions">
+                <h3>Speed</h3>
+                <input type="range" id="speed" name="speed" min="1" max="3" value="1" step="1">
+            </div>
+
+            <div class="questions">
+                <h3>Number of seats</h3>
+                <label for="seats1">
+                    <input type="radio" id="seats1" name="seats" value="1">
+                    Any
+                </label><br>
+                <label for="seats2">
+                    <input type="radio" id="seats2" name="seats" value="2">
+                    2 seats
+                </label><br>
+                <label for="seats3">
+                    <input type="radio" id="seats3" name="seats" value="3">
+                    4 seats
+                </label><br>
+            </div>
+            <div class="questions">
+                <input type="submit" value="Find a car for me">
+            </div>
+
+            
+
+        </form>
+    </div>
+
+    <h1>Results</h1>
+    <div class="cars">
+        <div class="container">
+            <div class="car">
+                <div class="carVisual">
+                    <h3>Honda Civic Type-R</h3>
+                    <img src="img/Cars/HondaCivicR.png" alt="Civic" class="carImage">
+                </div>
+                <div class="carInfo">
+                    <h3>Year - 2019</h3>
+                    <h3>Brand - Honda</h3>
+                    <h3>Transmission - Manual</h3>
+                    <h3>Fuel - Petrol</h3>
+                    <h3>Price - R 1 000 000</h3>
+                    <h3>Engine - 2.0L</h3>
+                    <h3>Horsepower - 350bhp</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="car">
+                <div class="carVisual">
+                    <h3>BMW M4</h3>
+                    <img src="img/Cars/M4.png" alt="M4" class="carImage">
+                </div>
+                <div class="carInfo">
+                    <h3>Year - 2019</h3>
+                    <h3>Brand - BMW</h3>
+                    <h3>Transmission - Manual</h3>
+                    <h3>Fuel - Petrol</h3>
+                    <h3>Price - R 1 800 000</h3>
+                    <h3>Engine - 3.0L</h3>
+                    <h3>Horsepower - 500bhp</h3>    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="car">
+                <div class="carVisual">
+                    <h3>Mercedes AMG GT Black</h3>
+                    <img src="img/Cars/Mercedes_AMG_GT_Black.png" alt="GT_Black" class="carImage">
+                </div>
+                <div class="carInfo">
+                    <h3>Year - 2020</h3>
+                    <h3>Brand - Mercedes</h3>
+                    <h3>Transmission - Automatic</h3>
+                    <h3>Fuel - Petrol</h3>
+                    <h3>Price - R 3 600 000</h3>
+                    <h3>Horsepower - 500bhp</h3>
+                    <h3>Engine - 4.0L</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="car">
+                <div class="carVisual">
+                    <h3>Nissan GTR 35</h3>
+                    <img src="img/Cars/NissanGTR.png" alt="GTR" class="carImage">
+                </div>
+                <div class="carInfo">
+                    <h3>Year - 2018</h3>
+                    <h3>Brand - Nissan</h3>
+                    <h3>Transmission - Automatic</h3>
+                    <h3>Fuel - Petrol</h3>
+                    <h3>Price - R 2 000 000</h3>
+                    <h3>Engine - 3.8L</h3>
+                    <h3>Horsepower - 600bhp</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="car">
+                <div class="carVisual">
+                    <h3>Toyota Supra MK5</h3>
+                    <img src="img/Cars/Supra.png" alt="Supra" class="carImage">
+                </div>
+                <div class="carInfo">
+                    <h3>Year - 2019</h3>
+                    <h3>Brand - Toyota</h3>
+                    <h3>Transmission - Manual</h3>
+                    <h3>Fuel - Petrol</h3>
+                    <h3>Price - R 1 500 000</h3>
+                    <h3>Engine - 3.0L</h3>
+                    <h3>Horsepower - 400bhp</h3>    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="car">
+                <div class="carVisual">
+                    <h3>Ferrari 488</h3>
+                    <img src="img/Cars/Ferrari.png" alt="488" class="carImage">
+                </div>
+                <div class="carInfo">
+                    <h3>Year - 2019</h3>
+                    <h3>Brand - Ferrari</h3>
+                    <h3>Transmission - Automatic</h3>
+                    <h3>Fuel - Petrol</h3>
+                    <h3>Price - R 4 000 000</h3>
+                    <h3>Engine - 3.9L</h3>
+                    <h3>Horsepower - 670bhp</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

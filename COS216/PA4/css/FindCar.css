@@ -1,0 +1,88 @@
+/*James Cooks u21654680*/
+h1 {
+    color: #006837;
+    font-size: 3em;
+    font-family: 'Heading';
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Heading';
+    color : #006837;
+    text-align: center;
+}
+
+select {
+    font-size: 1.2em;
+    font-family: 'Body';
+    background-color : #006837;
+    color: white;
+    border: none;
+    width: 45%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.questions h3 {
+    font-size: 1.5em;
+    font-family: 'Heading';
+    color : #006837;
+}
+
+h4 {
+    color : #006837;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.questions {
+    width : 45%;
+    margin: auto;
+    text-align: justify;
+    background-color: #333;
+    padding: 1%;
+}
+
+.questions label {
+    font-size: 1.2em;
+    font-family: 'Body';
+    color: white;
+    padding: 1%;
+}
+
+#submit{
+    font-size: 1.2em;
+    font-family: 'Body';
+    background-color : #0aa55d;
+    color: white;
+    border: none;
+    width: 90%;
+    padding: 5px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+#brand {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 1.5em;
+    border: none;
+    width: 50%;
+    height: 100%;
+    font-family: 'Body';
+    background-color: #333;
+    color: white;
+    border : 1px solid white;
+    border-radius: 15px;
+}
+
+

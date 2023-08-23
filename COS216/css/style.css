@@ -1,0 +1,86 @@
+/*James Cooks u21654680*/
+@font-face {
+    font-family: 'Body';
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Body';
+    color: white;
+}
+
+
+img {
+    width: 20%;
+    position:absolute;
+    left:0;
+    top: 20px; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+a:hover {
+    color: black;
+}
+h1 {
+    font-size: 5em;
+    color: #006837;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h2 {
+    font-size: 4em;
+    color: #006837;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+h3 {
+    font-size: 2em;
+    color: #006837;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+
+}
+#wrapper {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding-top: 2%;
+}
+
+#wrapper div{
+    background-color: #006837;
+    width: 40%;
+    margin: auto;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: width 2s;
+}
+
+#wrapper div:hover {
+    background-color: #0a8d50;
+    width: 55%;
+    margin: auto;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d0d8d4;
+}
+

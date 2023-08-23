@@ -1,0 +1,37 @@
+/*James Cooks u21654680*/
+@font-face {
+    font-family: 'Body';
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Body';
+}
+
+div {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+
+img {
+    width: 40%
+}
+
+h1 {
+    font-size: 3em;
+    color: #006837;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+}
+
+a {
+    color: #006837;
+    text-decoration: none;
+}
+

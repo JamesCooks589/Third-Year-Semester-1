@@ -1,0 +1,35 @@
+/*James Cooks u21654680*/
+h1 {
+    color: #006837;
+    font-size: 3em;
+    font-family: 'Heading';
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Heading';
+    color: #0aa55d;
+}
+
+#brands {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.brand {
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.brandIMG {
+    width: 100%;
+}
+
+
+
+

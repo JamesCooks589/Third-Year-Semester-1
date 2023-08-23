@@ -1,0 +1,67 @@
+/*James Cooks u21654680*/
+@font-face {
+    font-family: 'Body';
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+@font-face {
+    font-family: 'Heading';
+    src: url("../fonts/bavro-regular-webfont.ttf");
+}
+
+
+#Logo {
+    width: 20%;
+    padding: 15px;
+    float: left;
+}
+
+.SearchBar {
+    padding: 15px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.SearchBar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 1.5em;
+    border: none;
+    width: 100%;
+    font-family: 'Body';
+    background-color: #333;
+}
+
+.NavBar {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavBar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Heading';
+}
+
+.NavBar a:hover {
+    background-color: darkgray;
+    color: #006837;
+}
+
+.NavBar a.active {
+    background-color: #0aa55d;
+    color: white;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Body';
+    color: white;
+}
