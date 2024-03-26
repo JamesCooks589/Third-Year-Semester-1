@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Set Up</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Let's get started</h1>
+        <h2>Generate a game code</h2>
+        <h3 id="gameID"></h3>
+        <button id="generateGameCode">Generate</button>
+        <div id="join">
+            <h2>Enter a game code</h2>
+            <input id="gameCode" type="text">
+            <button id="joinGame">Join</button>
+        </div>
+    </div>
+
+    <script defer src="js/script.js"></script>
+</body>
+</html>
